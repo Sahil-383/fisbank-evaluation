@@ -1,0 +1,33 @@
+<div>
+    <div>
+        <div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>customer_no</th>
+                        <th>firstname</th>
+                        <th>middlename</th>
+                        <th>lastname</th>
+                        <th>customer_city</th>
+                        <th>customer_contactno</th>
+                        <th>occupation</th>
+                        <th>date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let customer of customers;">
+                        <td>{{customers.customer_no}}</td>
+                        <td>{{customers.firstname}}</td>
+                        <td>{{customers.middlename}}</td>
+                        <td>{{customers.lastname}}</td>
+                        <td>{{customers.customer_city}}</td>
+                        <td>{{customers.customer_contactno}}</td>
+                        <td>{{customers.occupation}}</td>
+                        <td>{{customers.date}}</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+</div>

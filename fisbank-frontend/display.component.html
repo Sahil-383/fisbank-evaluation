@@ -1,0 +1,23 @@
+<div>
+    <div>
+        <div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>branch_id</th>
+                        <th>branch_name</th>
+                        <th>branch_city</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let b of cts;">
+                        <td>{{b.branch_id}}</td>
+                        <td>{{b.branch_name}}</td>
+                        <td>{{b.branch_city}}</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+</div>
